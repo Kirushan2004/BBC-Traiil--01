@@ -1,0 +1,187 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.page-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+.top-bar-container{
+    border-bottom: 1px solid black;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px;
+}
+.searchbox-icon{
+    display: flex;
+    width: 10px;
+    margin-right: 200px;
+}
+.menu-icon{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.searchbox-icon:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.bbc-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.span-row1{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 0px 7px 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+.Regi-btn{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sign-btn{
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.Regi-btn:hover{
+    background-color: rgba(43, 42, 42, 0.916);
+}
+.sign-btn:hover{
+    background-color: rgba(43, 42, 42, 0.916);
+    color: white;
+}
+.content-container{
+    border-bottom: 1px solid black;
+    height: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Home{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 7px;
+    border-bottom: 3.9px solid black;
+}
+.News,.Sport,.Businees,.Innovation,.Culture,.Arts,.Travel,.Earth,.Audio,.Video,.Live{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 7px;
+}
+.Home:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.News:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Sport:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Businees:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Innovation:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Culture:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Arts:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Travel:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Earth:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Audio:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Video:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.Live:hover{
+    background-color: rgba(126, 126, 126, 0.329);
+}
+.live-btn-container{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heading-1-container{
+    height: 800px;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.image{
+    margin-top: 40px;
+    display: flex;
+    /* padding: 0px 214px 0px; */
+    padding-left: 214px;
+    display: flex;
+    gap: 30px;
+}
+.link-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 25px;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.link-text-1:hover{
+    text-decoration: underline;
+}
+.link-text-2:hover{
+    text-decoration: underline;
+}
